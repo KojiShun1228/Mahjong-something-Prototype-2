@@ -1,0 +1,71 @@
+.tile {
+    display: inline-block;
+    width: 33px;
+    height: 59px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    margin: 2px;
+    cursor: pointer;
+    user-select: none;
+    text-indent: -9999px;
+    margin-bottom: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* 萬子 */
+.tile-1m { background-image: url('images/manzu1/p_ms1_1.gif'); } 
+.tile-2m { background-image: url('images/manzu1/p_ms2_1.gif');}
+.tile-3m { background-image: url('images/manzu1/p_ms3_1.gif');}
+.tile-4m { background-image: url('images/manzu1/p_ms4_1.gif');}
+.tile-5m { background-image: url('images/manzu1/p_ms5_1.gif');}
+.tile-6m { background-image: url('images/manzu1/p_ms6_1.gif');}
+.tile-7m { background-image: url('images/manzu1/p_ms7_1.gif');}
+.tile-8m { background-image: url('images/manzu1/p_ms8_1.gif');}
+.tile-9m { background-image: url('images/manzu1/p_ms9_1.gif');}
+
+/* 筒子 */
+.tile-1p { background-image: url('images/pinzu1/p_ps1_1.gif'); } 
+.tile-2p { background-image: url('images/pinzu1/p_ps2_1.gif'); }
+.tile-3p { background-image: url('images/pinzu1/p_ps3_1.gif'); }
+.tile-4p { background-image: url('images/pinzu1/p_ps4_1.gif'); }
+.tile-5p { background-image: url('images/pinzu1/p_ps5_1.gif'); }
+.tile-6p { background-image: url('images/pinzu1/p_ps6_1.gif'); }
+.tile-7p { background-image: url('images/pinzu1/p_ps7_1.gif'); }
+.tile-8p { background-image: url('images/pinzu1/p_ps8_1.gif'); }
+.tile-9p { background-image: url('images/pinzu1/p_ps9_1.gif'); }
+
+/* 索子 */
+.tile-1s { background-image: url('images/sozu1/p_ss1_1.gif'); } 
+.tile-2s { background-image: url('images/sozu1/p_ss2_1.gif'); }
+.tile-3s { background-image: url('images/sozu1/p_ss3_1.gif'); }
+.tile-4s { background-image: url('images/sozu1/p_ss4_1.gif'); }
+.tile-5s { background-image: url('images/sozu1/p_ss5_1.gif'); }
+.tile-6s { background-image: url('images/sozu1/p_ss6_1.gif'); }
+.tile-7s { background-image: url('images/sozu1/p_ss7_1.gif'); }
+.tile-8s { background-image: url('images/sozu1/p_ss8_1.gif'); }
+.tile-9s { background-image: url('images/sozu1/p_ss9_1.gif'); }
+
+/* 字牌 */
+.tile-ton { background-image: url('images/tupai_1/p_ji_e_1.gif'); } 
+.tile-nan { background-image: url('images/tupai_1/p_ji_s_1.gif'); } 
+.tile-sha { background-image: url('images/tupai_1/p_ji_w_1.gif'); } 
+.tile-pei { background-image: url('images/tupai_1/p_ji_n_1.gif'); } 
+.tile-haku { background-image: url('images/tupai_1/p_no_1.gif'); } 
+.tile-hatu { background-image: url('images/tupai_1/p_ji_h_1.gif'); } 
+.tile-chun { background-image: url('images/tupai_1/p_ji_c_1.gif'); } 
+
+
+.hand {
+    min-height: 59px;
+    border: 1px dashed #ccc;
+    padding: 5px;
+}
+/*#result {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #c00;
+} */
+ 
